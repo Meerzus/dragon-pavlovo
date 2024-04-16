@@ -13,6 +13,7 @@ function Header(props) {
             <Image src={logo} alt={'Подземелье Дракона'} width={100} height={50}/>
 
             <nav>
+                <Link href={'#second-section'}>Мероприятия</Link>
                 <Link href={'/'}>О нас</Link>
                 <Link href={'/'}>Поводы</Link>
                 <Link href={'/'}>Контакты</Link>

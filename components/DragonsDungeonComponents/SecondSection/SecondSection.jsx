@@ -5,7 +5,7 @@ import ProductCard from "@/components/DragonsDungeonComponents/SecondSection/Pro
 
 import image from '@/public/images/dragons-dungeon/image.png'
 
-const product = [
+const products = [
     {
         id: 1,
         title: 'Дни рождения',
@@ -36,12 +36,6 @@ const product = [
         image: image,
         description: 'Проведите незабываемую вечеринку в Подземелье Дракона! Это идеальное место для взрослых, желающих оторваться по-настоящему. Вас ждут увлекательные игры, шоу, дискотека с DJ и ведущими, а также множество развлекательных мероприятий для создания незабываемого вечера!'
     },
-    {
-        id: 6,
-        title: 'Дни рождения',
-        image: image,
-        description: 'Празднуйте день рождения вашего ребенка в увлекательном Подземелье Дракона! Настоящие приключения, волшебные сюрпризы и незабываемые моменты ждут маленьких гостей и их друзей. Веселье и радость гарантированы!'
-    }
 ]
 
 // дни рождения, выпускные, праздники, корпоративы
@@ -51,10 +45,11 @@ function SecondSection(props) {
         <section id={'second-section'}>
             <h3>Перечень мероприятий, для которых подходит <span id="dragon">Подземелье Дракона</span></h3>
 
-            <ProductCard product={product}/>
-            <ProductCard product={product}/>
-            <ProductCard product={product}/>
-            <ProductCard product={product}/>
+            <ProductCard product={products[0]}/>
+            <ProductCard product={products[1]}/>
+            <ProductCard product={products[2]}/>
+            <ProductCard product={products[3]}/>
+            <ProductCard product={products[4]}/>
         </section>
     );
 }
