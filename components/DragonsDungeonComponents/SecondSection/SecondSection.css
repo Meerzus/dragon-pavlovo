@@ -1,0 +1,25 @@
+#second-section {
+  display: grid;
+  width: 100%;
+  padding: 100px 300px;
+  grid-template-columns: auto auto;
+  gap: 50px;
+}
+#second-section h3 {
+  grid-column: 1/-1;
+}
+#second-section .product-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+#second-section .product-card .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=SecondSection.css.map */
