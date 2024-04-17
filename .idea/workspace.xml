@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6b33376-db19-4766-a229-ee28b203b988" name="Changes" comment="init">
+    <list default="true" id="823a8f84-5ac3-4850-9c1c-e0a79b4ca1a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/ProductBackground.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dragons-dungeon/DragonsDungeonPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/dragons-dungeon/DragonsDungeonPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dragons-dungeon/DragonsDungeonPage.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/dragons-dungeon/DragonsDungeonPage.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dragons-dungeon/DragonsDungeonPage.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/dragons-dungeon/DragonsDungeonPage.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dragons-dungeon/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dragons-dungeon/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DragonsDungeonComponents/FirstSection/FirstSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/FirstSection/FirstSection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DragonsDungeonComponents/FirstSection/FirstSection.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/FirstSection/FirstSection.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DragonsDungeonComponents/FirstSection/FirstSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/FirstSection/FirstSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DragonsDungeonComponents/FirstSection/FirstSection.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/FirstSection/FirstSection.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/ProductCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/SecondSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/SecondSection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/SecondSection.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/SecondSection.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/SecondSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/SecondSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/SecondSection.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/SecondSection.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/LeadForm/LeadForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/LeadForm/LeadForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/LeadTriggerButton/LeadTriggerButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/LeadTriggerButton/LeadTriggerButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/LeadTriggerButton/LeadTriggerButton.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/LeadTriggerButton/LeadTriggerButton.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/global.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/global.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/global.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +20,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Sass File" />
         <option value="JSX File" />
       </list>
     </option>
@@ -47,9 +31,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2f9J1lD6tymKSlqJ9JpPsFObrjI" />
+  <component name="ProjectId" id="2fDDrJ4ucjOfEh5cKe83EZmR3tp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,50 +43,29 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/GitHub/dragon-pavlovo",
-    "list.type.of.created.stylesheet": "Sass",
+    "last_opened_file_path": "C:/Meerzus/Projects/dragon-pavlovo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "http.proxy",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\dragon-pavlovo\app\dragons-dungeon" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b6b33376-db19-4766-a229-ee28b203b988" name="Changes" comment="" />
-      <created>1713207147762</created>
+      <changelist id="823a8f84-5ac3-4850-9c1c-e0a79b4ca1a9" name="Changes" comment="" />
+      <created>1713326951935</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1713207147762</updated>
-      <workItem from="1713207149546" duration="15273000" />
-      <workItem from="1713266816076" duration="5850000" />
+      <updated>1713326951935</updated>
+      <workItem from="1713326952978" duration="79000" />
+      <workItem from="1713329345546" duration="709000" />
     </task>
-    <task id="LOCAL-00001" summary="init">
-      <option name="closed" value="true" />
-      <created>1713266870551</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1713266870551</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
