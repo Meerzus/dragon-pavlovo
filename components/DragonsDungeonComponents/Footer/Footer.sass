@@ -1,0 +1,63 @@
+@import "../../styleVariables"
+
+footer
+  display: flex
+  width: 100%
+  flex-wrap: wrap
+  background-color: $black
+  color: $white
+  padding: 50px 300px 10px
+  #contact-dev
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 40px
+    margin-top: 25px
+    a
+      display: flex
+      justify-content: center
+      align-items: start
+      flex-direction: column
+      height: 100%
+      width: fit-content
+      font-size: 1rem
+      &:after
+        height: 2px
+  .item
+    width: 25%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    p
+      width: 100%
+      text-align: center
+      font-size: 1.333rem
+    a
+      font-size: 1.333rem
+    img
+      width: 75%
+      height: auto
+  nav
+    width: 25%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    gap: 5px
+    align-items: start
+    padding: 0 50px
+  a
+    font-size: 1.333rem
+    &:after
+      content: ''
+      height: 5px
+      width: 0px
+      background-color: $yellow
+      display: flex
+      transition-duration: $transitionDuration
+      transition-timing-function: $transitionTimingFunction
+    &:hover
+      color: $yellow
+      &:after
+        width: 100%

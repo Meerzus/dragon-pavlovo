@@ -17,7 +17,7 @@ function FirstSection(props) {
 
             <Image src={logo} alt={'Подземелье Дракона'} width={640} height={480}/>
 
-            <Link href={'/'}><h4>Связаться с нами</h4></Link>
+            <Link href={'tel:+79101448287'}><h4>Связаться с нами</h4></Link>
         </section>
     );
 }

@@ -3,7 +3,7 @@
 import React, {useState} from 'react';
 import Image from "next/image";
 
-import image from '@/public/images/dragons-dungeon/image.png'
+import lead from '@/public/images/dragons-dungeon/lead-form.jpg'
 
 function LeadForm() {
     const [name, setName] = useState('')
@@ -46,7 +46,7 @@ function LeadForm() {
                 document.getElementById('leadForm').classList.remove('leadForm-active')
             }}></div>
             <form>
-                <Image src={image} alt={'Форма для заявки'} width={320} height={240}/>
+                <Image src={lead} alt={'Форма для заявки'} width={320} height={240}/>
 
                 <div className="container">
                     <button type={'button'} onClick={() => {

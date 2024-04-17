@@ -5,6 +5,7 @@
   flex-direction: column
   #leadForm
     display: none
+    z-index: 999
   .leadForm-active
     display: flex !important
     position: fixed
@@ -12,6 +13,7 @@
     height: 100dvh
     top: 0
     left: 0
+    z-index: 999
     .lead-background
       position: fixed
       top: 0
@@ -21,6 +23,7 @@
       background-color: rgba($black, .75)
       cursor: pointer
       display: flex
+      z-index: 999
     form
       display: flex
       border-radius: 10px
@@ -33,6 +36,7 @@
       top: 50%
       left: 50%
       translate: -50% -50%
+      z-index: 1000
       img
         width: 50%
         height: 100%
@@ -65,7 +69,7 @@
               rotate: -45deg
         button:last-child
           width: 100%
-          margin-top: 275px
+          margin-top: 85px
         p
           width: 100%
           margin: 40px 0 5px

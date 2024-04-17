@@ -15,8 +15,9 @@ function Header(props) {
             <nav>
                 <Link href={'#events'}>Мероприятия</Link>
                 <Link href={'#about-us'}>О нас</Link>
-                <Link href={'/'}>Поводы</Link>
-                <Link href={'/'}>Контакты</Link>
+                <Link href={'#ages'}>Возраст</Link>
+                <Link href={'#program'}>Программа</Link>
+                <Link href={'#contacts'}>Контакты</Link>
             </nav>
 
             <LeadTriggerButton text={'Оставить заявку'}/>

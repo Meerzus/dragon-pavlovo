@@ -17,13 +17,15 @@ function ProductCard({product}) {
                 </p>
             </div>
 
+            {
+                product.id !== 6 &&
+                <button onClick={() => {
+                    document.getElementById(`product-${product.id}`).classList.toggle('product-card-active')
+                    document.getElementById(`background`).classList.toggle('background-active')
+                }}>подробнее</button>
+            }
 
-            <button onClick={() => {
-                document.getElementById(`product-${product.id}`).classList.toggle('product-card-active')
-                document.getElementById(`background`).classList.toggle('background-active')
-            }}>подробнее</button>
-
-            <LeadTriggerButton text={'бронь'}/>
+            <LeadTriggerButton text={product.id === 6 ? 'оставить заявку на звонок' : 'бронь'}/>
         </div>
     );
 }

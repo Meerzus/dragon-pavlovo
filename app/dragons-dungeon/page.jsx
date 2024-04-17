@@ -2,11 +2,15 @@ import '@/components/global.sass'
 
 import './DragonsDungeonPage.sass'
 
-import Header from "@/components/Header/Header";
 import FirstSection from "@/components/DragonsDungeonComponents/FirstSection/FirstSection";
 import SecondSection from "@/components/DragonsDungeonComponents/SecondSection/SecondSection";
 import LeadForm from "@/components/LeadForm/LeadForm";
 import ThirdSection from "@/components/DragonsDungeonComponents/ThirdSection/ThirdSection";
+import FourthSection from "@/components/DragonsDungeonComponents/FourthSection/FourthSection";
+import FifthSection from "@/components/DragonsDungeonComponents/FifthSection/FifthSection";
+import SixthSection from "@/components/DragonsDungeonComponents/SixthSection/SixthSection";
+import Header from "@/components/DragonsDungeonComponents/Header/Header";
+import Footer from "@/components/DragonsDungeonComponents/Footer/Footer";
 
 
 export default async function Home() {
@@ -19,6 +23,14 @@ export default async function Home() {
           <SecondSection/>
 
           <ThirdSection/>
+
+          <FourthSection/>
+
+          <FifthSection/>
+
+          <SixthSection/>
+
+          <Footer/>
 
           <LeadForm/>
       </main>

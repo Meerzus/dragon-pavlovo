@@ -37,6 +37,12 @@ const products = [
         image: image,
         description: 'Проведите незабываемую вечеринку в Подземелье Дракона! Это идеальное место для взрослых, желающих оторваться по-настоящему. Вас ждут увлекательные игры, шоу, дискотека с DJ и ведущими, а также множество развлекательных мероприятий для создания незабываемого вечера!'
     },
+    {
+        id: 6,
+        title: 'и другие',
+        image: image,
+        description: 'Проведите незабываемую вечеринку в Подземелье Дракона! Это идеальное место для взрослых, желающих оторваться по-настоящему. Вас ждут увлекательные игры, шоу, дискотека с DJ и ведущими, а также множество развлекательных мероприятий для создания незабываемого вечера!'
+    },
 ]
 
 // дни рождения, выпускные, праздники, корпоративы
@@ -47,11 +53,11 @@ function SecondSection(props) {
             <ProductBackground/>
             <h3>Перечень мероприятий, для которых подходит <span id="dragon">Подземелье Дракона</span></h3>
 
-            <ProductCard product={products[0]}/>
-            <ProductCard product={products[1]}/>
-            <ProductCard product={products[2]}/>
-            <ProductCard product={products[3]}/>
-            <ProductCard product={products[4]}/>
+            {
+                products.map(product => {
+                    return <ProductCard product={product} key={product.id}/>
+                })
+            }
         </section>
     );
 }
