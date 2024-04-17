@@ -43,7 +43,7 @@ const products = [
 
 function SecondSection(props) {
     return (
-        <section id={'second-section'}>
+        <section id={'events'}>
             <ProductBackground/>
             <h3>Перечень мероприятий, для которых подходит <span id="dragon">Подземелье Дракона</span></h3>
 

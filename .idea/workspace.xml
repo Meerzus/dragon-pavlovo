@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="823a8f84-5ac3-4850-9c1c-e0a79b4ca1a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/ProductBackground.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="823a8f84-5ac3-4850-9c1c-e0a79b4ca1a9" name="Changes" comment="- minor refactoring">
+      <change afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/ThirdSection/ThirdSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/ThirdSection/ThirdSection.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/ProductCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dragons-dungeon/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dragons-dungeon/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/SecondSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/SecondSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/SecondSection.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/DragonsDungeonComponents/SecondSection/SecondSection.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JSX File" />
+        <option value="Sass File" />
       </list>
     </option>
   </component>
@@ -44,11 +46,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Meerzus/Projects/dragon-pavlovo",
+    "list.type.of.created.stylesheet": "Sass",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "http.proxy",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -61,11 +65,25 @@
       <option name="presentableId" value="Default" />
       <updated>1713326951935</updated>
       <workItem from="1713326952978" duration="79000" />
-      <workItem from="1713329345546" duration="709000" />
+      <workItem from="1713329345546" duration="943000" />
+      <workItem from="1713350882798" duration="1978000" />
     </task>
+    <task id="LOCAL-00001" summary="- minor refactoring">
+      <option name="closed" value="true" />
+      <created>1713330251853</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713330251853</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- minor refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="- minor refactoring" />
   </component>
 </project>
