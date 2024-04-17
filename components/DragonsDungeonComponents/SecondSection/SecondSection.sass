@@ -1,6 +1,6 @@
 @import "../../styleVariables"
 
-#second-section
+#events
   display: grid
   width: 100%
   padding: 100px 300px
@@ -8,6 +8,18 @@
   grid-template-areas: 'title title title' 'product1 product2 product3' 'product4 product5 product6'
   grid-template-columns: 33% 33% 33%
   //gap: 50px
+  #background
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 999
+    display: none
+  .background-active
+    display: flex !important
+    cursor: pointer
+    background-color: rgba($black, .5)
+    width: 100dvw
+    height: 100dvh
   h3
     grid-area: title
   #product-1
@@ -59,6 +71,7 @@
       p
         font-size: 1.333rem
   .product-card-active
+    z-index: 1000
     border-radius: 10px
     position: fixed
     justify-content: space-evenly

@@ -20,6 +20,7 @@ function ProductCard({product}) {
 
             <button onClick={() => {
                 document.getElementById(`product-${product.id}`).classList.toggle('product-card-active')
+                document.getElementById(`background`).classList.toggle('background-active')
             }}>подробнее</button>
 
             <LeadTriggerButton text={'бронь'}/>

@@ -4,6 +4,7 @@ import './SecondSection.sass'
 import ProductCard from "@/components/DragonsDungeonComponents/SecondSection/ProductCard";
 
 import image from '@/public/images/dragons-dungeon/image.png'
+import ProductBackground from "@/components/DragonsDungeonComponents/SecondSection/ProductBackground";
 
 const products = [
     {
@@ -42,7 +43,8 @@ const products = [
 
 function SecondSection(props) {
     return (
-        <section id={'second-section'}>
+        <section id={'events'}>
+            <ProductBackground/>
             <h3>Перечень мероприятий, для которых подходит <span id="dragon">Подземелье Дракона</span></h3>
 
             <ProductCard product={products[0]}/>
