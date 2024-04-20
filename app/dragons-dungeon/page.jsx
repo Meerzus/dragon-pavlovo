@@ -11,6 +11,7 @@ import FifthSection from "@/components/DragonsDungeonComponents/FifthSection/Fif
 import SixthSection from "@/components/DragonsDungeonComponents/SixthSection/SixthSection";
 import Header from "@/components/DragonsDungeonComponents/Header/Header";
 import Footer from "@/components/DragonsDungeonComponents/Footer/Footer";
+import ChooseUsSection from "@/components/DragonsDungeonComponents/ChooseUsSection/ChooseUsSection";
 
 
 export default async function Home() {
@@ -27,6 +28,8 @@ export default async function Home() {
           <FourthSection/>
 
           <FifthSection/>
+
+          <ChooseUsSection/>
 
           <SixthSection/>
 

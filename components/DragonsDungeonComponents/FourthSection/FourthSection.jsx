@@ -14,10 +14,10 @@ function FourthSection(props) {
         <section id={'ages'}>
             <h1>Праздник для всех возрастов!</h1>
 
-            <h4>Для кого подойдет Подземелье Дракона?</h4>
+            <h3>Для кого подойдет Подземелье Дракона?</h3>
 
             <div className="item">
-                <h5>Для детей от 7 лет</h5>
+                <h4>Для детей от 7 лет</h4>
 
                 <Image src={kids} alt={'Для детей от 7 лет'} width={1080} height={720}/>
 
@@ -32,7 +32,7 @@ function FourthSection(props) {
             </div>
 
             <div className="item">
-                <h5>Для подростков</h5>
+                <h4>Для подростков</h4>
 
                 <Image src={teenagers} alt={'Для детей от 7 лет'} width={1080} height={720}/>
 
@@ -47,7 +47,7 @@ function FourthSection(props) {
             </div>
 
             <div className="item">
-                <h5>Для взрослых</h5>
+                <h4>Для взрослых</h4>
 
                 <Image src={adults} alt={'Для детей от 7 лет'} width={1080} height={720}/>
 

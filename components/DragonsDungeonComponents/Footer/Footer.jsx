@@ -33,7 +33,7 @@ function Footer(props) {
             </div>
 
             <div id={'contact-dev'}>
-                <Link href={'https://t.me/@meerzus'}>Разработка сайта</Link>
+                <Link href={'https://t.me/meerzus'} target={'_blank'}>Разработка сайта</Link>
             </div>
         </footer>
     );

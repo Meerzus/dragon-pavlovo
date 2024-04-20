@@ -10,7 +10,9 @@ function ProductCard({product}) {
             <div className="container">
                 <h4>{product.title}</h4>
 
-                <Image src={product.image} alt={product.title} width={320} height={240}/>
+                <div className="image">
+                    <Image src={product.image} alt={product.title} width={1080} height={720}/>
+                </div>
 
                 <p>
                     {product.description}
@@ -18,14 +20,14 @@ function ProductCard({product}) {
             </div>
 
             {
-                product.id !== 6 &&
+                // product.id !== 6 &&
                 <button onClick={() => {
                     document.getElementById(`product-${product.id}`).classList.toggle('product-card-active')
                     document.getElementById(`background`).classList.toggle('background-active')
                 }}>подробнее</button>
             }
 
-            <LeadTriggerButton text={product.id === 6 ? 'оставить заявку на звонок' : 'бронь'}/>
+            <LeadTriggerButton text={'бронь'}/>
         </div>
     );
 }

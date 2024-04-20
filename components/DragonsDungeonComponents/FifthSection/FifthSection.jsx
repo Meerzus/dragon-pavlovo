@@ -9,6 +9,8 @@ import labirint from '@/public/images/dragons-dungeon/labirint.jpg'
 import disco from '@/public/images/dragons-dungeon/disco.jpg'
 import razvlekat from '@/public/images/dragons-dungeon/razvlekat.jpg'
 
+import Video from "@/components/DragonsDungeonComponents/FifthSection/Video";
+
 function FifthSection(props) {
     return (
         <section id={'program'}>
@@ -19,7 +21,7 @@ function FifthSection(props) {
 
                 <div className="container">
                     <h4>
-                        <span id="dragon">Испытания с настоящими животными</span>
+                        <span id="dragon">Испытания с животными</span>
                     </h4>
 
                     <p>
@@ -36,7 +38,7 @@ function FifthSection(props) {
 
                 <div className="container">
                     <h4>
-                        <span id="dragon">Лабиринты и задания с габаритным инвентарем</span>
+                        <span id="dragon">Латинисты и задания с габаритным инвентарем</span>
                     </h4>
 
                     <p>
@@ -69,7 +71,7 @@ function FifthSection(props) {
 
                 <div className="container">
                     <h4>
-                        <span id="dragon">Развлекательное шоу</span>
+                        <span id="dragon">Развлекательная игра-шоу</span>
                     </h4>
 
                     <p>
@@ -94,6 +96,13 @@ function FifthSection(props) {
                         которые останутся с вами надолго после окончания мероприятия.
                     </p>
                 </div>
+            </div>
+
+            <div className="video-section">
+                <h2>Еще остались сомнения?</h2>
+                <h2><span id="dragon">Посмотрите видео и убедитесь</span></h2>
+
+                <Video width={'100%'} height={'100%'}/>
             </div>
         </section>
     );

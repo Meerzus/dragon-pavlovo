@@ -14,13 +14,13 @@ function SixthSection(props) {
             <h1>Как нас найти?</h1>
 
             <div className="item">
-                <h4>Чтобы связаться с нами</h4>
+                <h4>связаться с нами</h4>
 
                 <Link href={'tel:+79101448287'}>Позвонить нам</Link>
 
                 <Link href={'https://vk.com/im?media=&sel=-216009078'} target={'_blank'}>Написать в VK</Link>
 
-                <h4>Чтобы приехать к нам</h4>
+                <h4>приехать к нам</h4>
 
                 <p>Красноармейская улица, 29, Павлово</p>
 
