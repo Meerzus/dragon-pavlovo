@@ -4,6 +4,7 @@ import React, {useState} from 'react';
 import Image from "next/image";
 
 import lead from '@/public/images/dragons-dungeon/lead-form.jpg'
+import axios from "axios";
 
 function LeadForm() {
     const [name, setName] = useState('')
@@ -40,12 +41,28 @@ function LeadForm() {
         return result
     }
 
+    const sendMessage = async (e) => {
+        // e.preventDefault()
+        try {
+            const response = await axios.post(
+                `https://api.telegram.org/bot6644500157:AAFu1FpMWSD_JQ3eshQ2zJnPZxGrtmIBJRM/sendMessage`,
+                {
+                    chat_id: '899792725',
+                    text: `Новая заявка! Имя: ${name}, телефон: ${phone}`
+                }
+            );
+            // console.log('Message sent:', response.data);
+        } catch (error) {
+            console.error('Error sending message:', error);
+        }
+    };
+
     return (
         <div id={'leadForm'}>
             <div className="lead-background" onClick={() => {
                 document.getElementById('leadForm').classList.remove('leadForm-active')
             }}></div>
-            <form>
+            <form onSubmit={(e) => sendMessage(e)}>
                 <Image src={lead} alt={'Форма для заявки'} width={320} height={240}/>
 
                 <div className="container">

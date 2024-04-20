@@ -12,6 +12,7 @@ import SixthSection from "@/components/DragonsDungeonComponents/SixthSection/Six
 import Header from "@/components/DragonsDungeonComponents/Header/Header";
 import Footer from "@/components/DragonsDungeonComponents/Footer/Footer";
 import ChooseUsSection from "@/components/DragonsDungeonComponents/ChooseUsSection/ChooseUsSection";
+import CalculateLeadForm from "@/components/CalculateLeadForm/CalculateLeadForm";
 
 
 export default async function Home() {
@@ -25,17 +26,17 @@ export default async function Home() {
 
           <ThirdSection/>
 
-          <FourthSection/>
+          <ChooseUsSection/>
 
           <FifthSection/>
-
-          <ChooseUsSection/>
 
           <SixthSection/>
 
           <Footer/>
 
           <LeadForm/>
+
+          <CalculateLeadForm/>
       </main>
   );
 }

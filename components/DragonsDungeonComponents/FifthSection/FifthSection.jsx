@@ -7,9 +7,13 @@ import image from '@/public/images/dragons-dungeon/image.png'
 
 import labirint from '@/public/images/dragons-dungeon/labirint.jpg'
 import disco from '@/public/images/dragons-dungeon/disco.jpg'
-import razvlekat from '@/public/images/dragons-dungeon/razvlekat.jpg'
+import game_show from '@/public/images/dragons-dungeon/game_show.jpg'
+import music from '@/public/images/dragons-dungeon/music.jpg'
+import animals from '@/public/images/dragons-dungeon/animals.jpg'
+import silver_show from '@/public/images/dragons-dungeon/silver_show.jpg'
 
 import Video from "@/components/DragonsDungeonComponents/FifthSection/Video";
+import Link from "next/link";
 
 function FifthSection(props) {
     return (
@@ -17,7 +21,7 @@ function FifthSection(props) {
             <h1>Что вас ждет в Подземелье Дракона</h1>
 
             <div className="item">
-                <Image src={image} alt={''} width={640} height={480}/>
+                <Image src={animals} alt={''} width={640} height={480}/>
 
                 <div className="container">
                     <h4>
@@ -38,7 +42,7 @@ function FifthSection(props) {
 
                 <div className="container">
                     <h4>
-                        <span id="dragon">Латинисты и задания с габаритным инвентарем</span>
+                        <span id="dragon">Лабиринты и задания с габаритным инвентарем</span>
                     </h4>
 
                     <p>
@@ -51,7 +55,7 @@ function FifthSection(props) {
             </div>
 
             <div className="item">
-                <Image src={image} alt={''} width={640} height={480}/>
+                <Image src={music} alt={''} width={640} height={480}/>
 
                 <div className="container">
                     <h4>
@@ -67,7 +71,7 @@ function FifthSection(props) {
             </div>
 
             <div className="item">
-                <Image src={razvlekat} alt={''} width={640} height={480}/>
+                <Image src={game_show} alt={''} width={640} height={480}/>
 
                 <div className="container">
                     <h4>
@@ -98,11 +102,31 @@ function FifthSection(props) {
                 </div>
             </div>
 
+            <div className="item">
+                <Image src={silver_show} alt={''} width={640} height={480}/>
+
+                <div className="container">
+                    <h4>
+                        <span id="dragon">Серебряное шоу</span>
+                    </h4>
+
+                    <p>
+                        Дополните вашу вечеринку ярким и захватывающим "Серебряным шоу"! Незабываемые эффекты,
+                        удивительные трюки и потрясающая атмосфера сделают ваше мероприятие еще более
+                        запоминающимся и веселым!
+                    </p>
+                </div>
+            </div>
+
             <div className="video-section">
                 <h2>Еще остались сомнения?</h2>
                 <h2><span id="dragon">Посмотрите видео и убедитесь</span></h2>
 
                 <Video width={'100%'} height={'100%'}/>
+
+                <h4>Больше материала у нас в <Link href={'https://vk.com/dragon_pavlovo'}
+                                                   target={'_blank'}
+                >социальных сетях</Link></h4>
             </div>
         </section>
     );

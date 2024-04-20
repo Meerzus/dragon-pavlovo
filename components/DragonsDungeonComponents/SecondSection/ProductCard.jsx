@@ -7,7 +7,10 @@ import LeadTriggerButton from "@/components/LeadTriggerButton/LeadTriggerButton"
 function ProductCard({product}) {
     return (
         <div className="product-card" id={`product-${product.id}`}>
-            <div className="container">
+            <div className="container" onClick={() => {
+                document.getElementById(`product-${product.id}`).classList.toggle('product-card-active')
+                document.getElementById(`background`).classList.toggle('background-active')
+            }}>
                 <h4>{product.title}</h4>
 
                 <div className="image">
@@ -19,15 +22,15 @@ function ProductCard({product}) {
                 </p>
             </div>
 
-            {
-                // product.id !== 6 &&
-                <button onClick={() => {
-                    document.getElementById(`product-${product.id}`).classList.toggle('product-card-active')
-                    document.getElementById(`background`).classList.toggle('background-active')
-                }}>подробнее</button>
-            }
+            {/*{*/}
+            {/*    // product.id !== 6 &&*/}
+            {/*    <button onClick={() => {*/}
+            {/*        document.getElementById(`product-${product.id}`).classList.toggle('product-card-active')*/}
+            {/*        document.getElementById(`background`).classList.toggle('background-active')*/}
+            {/*    }}>подробнее</button>*/}
+            {/*}*/}
 
-            <LeadTriggerButton text={'бронь'}/>
+            <LeadTriggerButton text={'расчитать стоимость'}/>
         </div>
     );
 }

@@ -53,6 +53,7 @@
       justify-content: start
       align-items: center
       margin-bottom: 25px
+      cursor: pointer
       h4
         margin: 0
         //height: 80px
@@ -66,6 +67,7 @@
         width: auto
         overflow: hidden
         border-radius: 10px
+        margin-bottom: 25px
         img
           border-radius: 10px
           overflow: hidden
@@ -73,7 +75,6 @@
           min-height: 260px
           width: auto
           object-fit: cover
-          margin-bottom: 25px
           transition-duration: $transitionDuration
           transition-timing-function: $transitionTimingFunction
         &:hover
@@ -81,6 +82,8 @@
             scale: 1.1
       p
         font-size: 1.333rem
+    button
+      width: 100%
   .product-card-active
     z-index: 997
     border-radius: 10px
