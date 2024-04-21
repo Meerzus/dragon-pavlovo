@@ -6,6 +6,13 @@
   flex-wrap: wrap
   justify-content: space-between
   padding: 100px 300px
+  @media only screen and (max-width: $bp-tablet)
+    padding: 100px 150px
+  @media only screen and (max-width: $bp-tablet-landscape-up)
+    flex-direction: column
+    padding: 100px 50px
+  @media only screen and (max-width: $bp-phone)
+    padding: 100px 20px
   h1
     width: 100%
   .item
@@ -14,8 +21,17 @@
     flex-direction: column
     justify-content: start
     align-items: start
+    @media only screen and (max-width: $bp-tablet-landscape-up)
+      width: 100%
+      margin-bottom: 100px
+    @media only screen and (max-width: $bp-phone)
+      margin-bottom: 20px
+      padding: 0 20px
     h4
       margin: 0 0 10px
+      @media only screen and (max-width: $bp-tablet-landscape-up)
+        width: 100%
+        text-align: center
     p
       font-size: 1.333rem
       margin-bottom: 50px
@@ -44,12 +60,16 @@
           width: 100%
     &:nth-child(2)
       padding: 0 50px
+      @media only screen and (max-width: $bp-phone)
+        padding: 0 20px
       p
         font-size: 1.777rem
     &:nth-child(3)
       justify-content: center
       align-items: center
       padding: 0 50px
+      @media only screen and (max-width: $bp-phone)
+        padding: 0 20px
   .any-questions
     width: 100%
     margin-top: 50px

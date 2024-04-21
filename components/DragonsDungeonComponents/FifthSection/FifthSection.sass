@@ -11,6 +11,10 @@ video
   flex-direction: column
   align-items: center
   justify-content: center
+  @media only screen and (max-width: $bp-tablet)
+    padding: 100px
+  @media only screen and (max-width: $bp-phone)
+    padding: 100px 20px
   .item
     width: 100%
     display: flex
@@ -18,11 +22,19 @@ video
     margin-bottom: 100px
     justify-content: space-between
     align-items: center
+    @media only screen and (max-width: $bp-tablet)
+      margin-bottom: 20px
+    @media only screen and (max-width: $bp-tablet-landscape-up)
+      flex-direction: column
+      margin-bottom: 100px
     img
       width: 50%
       height: 500px
       object-fit: cover
       border-radius: 10px
+      @media only screen and (max-width: $bp-tablet-landscape-up)
+        width: 90%
+        margin-bottom: 20px
     .container
       width: 45%
       display: flex
@@ -30,24 +42,40 @@ video
       //padding: 100px
       justify-content: center
       align-items: start
+      @media only screen and (max-width: $bp-tablet-landscape-up)
+        width: 90%
       h4
         width: 100%
         text-align: left
+        @media only screen and (max-width: $bp-tablet)
+          font-size: 1.777rem
+        @media only screen and (max-width: $bp-tablet-landscape-up)
+          text-align: center
       p
         font-size: 1.333rem
         width: 100%
         text-align: left
     &:nth-child(2n)
       flex-direction: row-reverse
+      @media only screen and (max-width: $bp-tablet-landscape-up)
+        flex-direction: column
       .container
         align-items: end
         h4
           text-align: right
+          @media only screen and (max-width: $bp-tablet-landscape-up)
+            text-align: center
         p
           text-align: right
+          @media only screen and (max-width: $bp-tablet-landscape-up)
+            text-align: left
   .video-section
     display: flex
     flex-direction: column
+    @media only screen and (max-width: $bp-tablet)
+      margin-top: 100px
+    @media only screen and (max-width: $bp-tablet-landscape-up)
+      margin-top: 0
     h2
       margin: 0
     h4
@@ -55,6 +83,10 @@ video
       text-align: start
       margin: 50px 0 0
       display: flex
+      @media only screen and (max-width: $bp-phone)
+        flex-direction: column
+        align-items: center
+        justify-content: start
       a
         color: $white
         display: flex

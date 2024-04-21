@@ -8,6 +8,13 @@
   grid-template-areas: 'title title title' 'product1 product2 product3' 'product4 product5 product6'
   grid-template-columns: 33% 33% 33%
   gap: 20px
+  @media only screen and (max-width: $bp-tablet)
+    padding: 100px 150px
+  @media only screen and (max-width: $bp-tablet-landscape-up)
+    grid-template-areas: 'title' 'product1' 'product2' 'product3' 'product4' 'product5' 'product6'
+    grid-template-columns: 100%
+  @media only screen and (max-width: $bp-phone)
+    padding: 100px 20px
   #background
     position: fixed
     top: 0
@@ -100,13 +107,38 @@
     -webkit-backdrop-filter: blur(5px)
     //transition-duration: $transitionDuration
     //transition-timing-function: $transitionTimingFunction
+    @media only screen and (max-width: $bp-tablet)
+      width: 70%
+    @media only screen and (max-width: $bp-phone)
+      width: 95%
+      translate: -50% -40%
+      padding: 20px
+      max-height: calc(100dvh - 125px)
+      overflow-y: scroll
+      scrollbar-width: thin
+      scrollbar-color: $yellow $white
     .container
       height: auto
+      @media only screen and (max-width: $bp-phone)
+        //max-height: calc(100dvh - 150px)
+        //overflow-y: scroll
+        h4
+          min-height: 40px
+          height: 40px
+        p
+          //max-height: 100px
+          //overflow-y: scroll
       .image
         width: 100%
         min-height: 350px
+        @media only screen and (max-width: $bp-phone)
+          min-height: 200px
+          height: 200px
         img
           width: 100%
           height: 350px
           object-fit: cover
           object-position: center 25%
+          @media only screen and (max-width: $bp-phone)
+            min-height: 200px
+            height: 200px

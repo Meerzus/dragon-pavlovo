@@ -37,10 +37,14 @@
       left: 50%
       translate: -50% -50%
       z-index: 1000
+      @media only screen and (max-width: $bp-tablet-landscape-up)
+        width: 90%
       img
         width: 50%
         height: 100%
         object-fit: cover
+        @media only screen and (max-width: $bp-tablet-landscape-up)
+          display: none
       .container
         width: 50%
         height: 100%
@@ -49,6 +53,8 @@
         flex-direction: column
         justify-content: start
         align-items: end
+        @media only screen and (max-width: $bp-tablet-landscape-up)
+          width: 100%
         button:first-child
           width: 50px
           min-height: 50px
@@ -70,7 +76,7 @@
               rotate: -45deg
         button:last-child
           width: 100%
-          margin-top: 85px
+          margin-top: auto
         p
           width: 100%
           margin: 40px 0 5px
@@ -94,9 +100,11 @@
         overflow-y: scroll
         scroll-behavior: smooth
         scroll-padding: 70px
+        @media only screen and (max-width: $bp-tablet-landscape-up)
+          width: 100%
         #productSection
           margin-top: 50px
-        #productSection, #amountOfPeopleSection, #ageSection, #dateSection, #finalSection
+        #productSection, #amountOfPeopleSection, #ageSection, #dateSection, #callMeSection
           width: 100%
           min-height: 410px
           margin-bottom: 150px
@@ -149,7 +157,7 @@
               box-shadow: 0 0 10px 0px rgba($yellow, 1)
         #amountOfPeopleSection
           align-items: center
-        #finalSection
+        #callMeSection
           margin-bottom: 0
           button
             margin-top: auto

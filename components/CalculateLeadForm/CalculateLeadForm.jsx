@@ -134,10 +134,10 @@ function CalculateLeadForm(props) {
 
                         <DateRangePicker startDate={date} setStartDate={setDate}/>
 
-                        <Link href={'#finalSection'}>Далее</Link>
+                        <Link href={'#callMeSection'}>Далее</Link>
                     </div>
 
-                    <div id="finalSection">
+                    <div id="callMeSection">
                         <h5>Оставьте Ваш номер телефона, а мы рассчитаем стоимость мероприятия и перезвоним!</h5>
 
                         <p>Ваше имя</p>

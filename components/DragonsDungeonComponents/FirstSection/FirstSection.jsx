@@ -5,6 +5,7 @@ import Image from "next/image";
 
 import logo from '@/public/images/logo.png'
 import banner from '@/public/images/dragons-dungeon/hero-banner.jpg'
+import banner_small from '@/public/images/dragons-dungeon/hero-banner-small.jpg'
 import Link from "next/link";
 
 function FirstSection(props) {
